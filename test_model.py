@@ -1,7 +1,7 @@
 import joblib
 
 # Load model
-model = joblib.load("model.pkl")
+model = joblib.load("iris_model.pkl")
 
 # Sample test
 sample = [[5.1, 3.5, 1.4, 0.2]]
