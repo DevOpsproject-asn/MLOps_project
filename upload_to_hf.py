@@ -10,8 +10,8 @@ create_repo(repo_id, token=token, exist_ok=True)
 
 # Upload model.pkl
 upload_file(
-    path_or_fileobj="model.pkl",
-    path_in_repo="model.pkl",
+    path_or_fileobj="iris_model.pkl",
+    path_in_repo="iris_model.pkl",
     repo_id=repo_id,
     token=token
 )
